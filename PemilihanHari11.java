@@ -6,21 +6,21 @@ public class PemilihanHari11 {
         String dayName, dayType;
         System.out.print("Input day name: ");
         dayName = sc.nextLine();
-        Switch (dayName.toLowerCase()) {
-            case "monday":
-            case "tuesday":
-            case "wednesday":
+        switch (dayName.toLowerCase()) {
+            case "monday" :
+            case "tuesday" :
+            case "wednesday" :
             case "thuesday":
             case "friday":
-                dayType = "wednesday";
+                dayType = "Weekday" ;
                 break;
             case "saturday":
             case "sunday":
-                dayType = "weekend";
+                dayType = "Weekend" ; 
                 break;
             default:
                 dayType = "invalid day name";
-        System.out.println(dayName + "is a" + dayType);
+        System.out.println(dayName + " is a " + dayType);
         } 
     }
 }
