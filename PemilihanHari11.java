@@ -12,7 +12,7 @@ public class PemilihanHari11 {
             case "wednesday" :
             case "thuesday":
             case "friday":
-                dayType = "Weekday" ;
+                dayType = "Weekday";
                 break;
             case "saturday":
             case "sunday":
