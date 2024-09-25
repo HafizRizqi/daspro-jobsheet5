@@ -7,8 +7,7 @@ public class PemilihanBilangan11 {
         int angka = sc.nextInt();
 
         String hasil = (angka % 2 == 0) ? "bilangan genap" : "bilangan ganjil";
-        System.out.println("Angka " + angka + "termasuk " + hasil);
-
-        
+        System.out.println("Angka " + angka + " termasuk " + hasil);
+  
     }
 }
